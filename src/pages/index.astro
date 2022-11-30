@@ -1,0 +1,54 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
+  (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&" rel="stylesheet" />
+  </head>
+  <body style="font-family: 'Roboto', sans-serif;" class="p-3 max-w-xl md:max-w-5xl mx-auto">
+    <Header title={SITE_TITLE} />
+    <main>
+      <section>
+        <ul class="space-y-3 md:space-y-0 gap-3 grid grid-cols-1 md:grid-cols-2">
+          {
+            posts.map(post => (
+              <li class="border border-black/20 rounded-xl">
+                <a href={post.url}>
+                  <img
+                    src={post.frontmatter.heroImage}
+                    alt=""
+                    class="rounded-t-xl object-cover h-52 w-full"
+                  />
+                  <div class="p-2 space-y-1">
+                    <h3 class="text-xl font-bold">{post.frontmatter.title}</h3>
+                    <p class="flex items-center text-zinc-700 teext-sm font-bold gap-1">
+                      {post.frontmatter.tags} •
+                      <time datetime={post.frontmatter.pubDate}>
+                        {new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric'
+                        })}
+                      </time>
+                    </p>
+                  </div>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+
+export interface Props {
+  content: {
+    title: string;
+    description: string;
+    pubDate?: string;
+    updatedDate?: string;
+    heroImage?: string;
+    tags?: string;
+  };
+}
+
+const {
+  content: { title, description, pubDate, updatedDate, heroImage, tags }
+} = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <link href="/global.css" rel="stylesheet" />
+  </head>
+
+  <body class="p-3 max-w-4xl mx-auto">
+    <a href="/" class="block mb-6 text-lg font-bold text-zinc-500">⟵ Главная</a>
+    <main class="markdown-body">
+      <article>
+        <p class="text-5xl text-black font-bold">{title}</p>
+        <p class="text-2xl font-bold">{description}</p>
+        <p class="flex items-center text-zinc-700 teext-sm font-bold gap-1">
+          {tags} • <time>{pubDate}</time>
+          {updatedDate && ' • Обновлено'}
+        </p>
+        {heroImage && <img class="w-full rounded-xl mb-6" src={heroImage} alt="" />}
+        <div class="mx-auto max-w-2xl">
+          <slot />
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

@@ -38,8 +38,8 @@ updatedDate: 'Nov 30 2022'
 
 # Топ 5 треков за этот год
 
-1. [My Best Friend's Girl — The Cars](/public/my_2022_music/The_Cars_-_My_Best_Friend's_Girl.mp3)
-2. [Fleetwood Mac - The Chain (Remastered)](</public/my_2022_music/Fleetwood_Mac_-_The_Chain_(Remastered).mp3>)
-3. [Fleetwood Mac - Tusk](</public/my_2022_music/Fleetwood_Mac_-_Tusk_(7_19_79).mp3>)
-4. [SSaSke Нарезки,iiRN,DDAti,OsterMine,Send 1,5opka - КАКАЯ РАЗНИЦА (Remix)](</public/my_2022_music/SSaSke_Нарезки,iiRN,DDAti,OsterMine,Send_1,5opka_-_КАКАЯ_РАЗНИЦА_(Remix).mp3>)
-5. [AC/DC - T.N.T](/public/my_2022_music/AC_DC_-_T_N_T.mp3)
+1. [My Best Friend's Girl — The Cars](https://www.youtube.com/watch?v=XkSmLh2Hbi0)
+2. [Fleetwood Mac - The Chain (Remastered)](https://www.youtube.com/watch?v=iLC-tHvkNvI)
+3. [Fleetwood Mac - Tusk](https://www.youtube.com/watch?v=EmuBOfurv3o)
+4. [SSaSke Нарезки,iiRN,DDAti,OsterMine,Send 1,5opka - КАКАЯ РАЗНИЦА (Remix)](https://www.youtube.com/watch?v=CrJ8TL_pYk0)
+5. [AC/DC - T.N.T](https://www.youtube.com/watch?v=NhsK5WExrnE)

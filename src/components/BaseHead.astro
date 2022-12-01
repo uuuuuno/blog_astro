@@ -2,10 +2,10 @@
 export interface Props {
   title: string;
   description: string;
-  image?: string;
+  image: string;
 }
 
-const { title, description, image = '/uuuuuno.jpg' } = Astro.props;
+const { title, description, image = '/public/uuuuuno.jpg' } = Astro.props;
 ---
 
 <!-- Global Metadata -->

@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/BlogPost.astro'
 title: 'Мой 2022й по версии YandexMusic'
-description: 'В шоке...'
+description: 'Музыка нас связала...'
 pubDate: 'Dec 1 2022'
 heroImage: '/my_2022_music/my_2022_yandex_music.png'
 tags: 'Музыка'

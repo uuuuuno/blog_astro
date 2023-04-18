@@ -8,6 +8,8 @@ tags: "Музыка, Винил"
 updatedDate: "Apr 18 2023"
 ---
 
+Купил пластинку и захотелось написать краткий обзор
+
 # История
 
 После успеха альбома ["A new world record"](https://www.youtube.com/watch?v=1rpLTRiJyRA&list=PLrv5a_5drVgTTMKYUrudHIi6b_uiH5pJ7) в 1976 году, занявшего 5 место в чартах США и Великобритании, и сингла ["Living thing"](https://www.youtube.com/watch?v=H48j3KGBomU), занявшего 13 и 4 места соответственно, многие считали, что [Джефф Линн](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%BD,_%D0%94%D0%B6%D0%B5%D1%84%D1%84) и его команда [Electric Light Orchestra](https://ru.wikipedia.org/wiki/Electric_Light_Orchestra) достигли вершины своего творчества.

@@ -41,7 +41,5 @@ updatedDate: 'Nov 30 2022'
 1. [My Best Friend's Girl — The Cars](https://www.youtube.com/watch?v=XkSmLh2Hbi0)
 2. [Fleetwood Mac - The Chain (Remastered)](https://www.youtube.com/watch?v=iLC-tHvkNvI)
 3. [Fleetwood Mac - Tusk](https://www.youtube.com/watch?v=EmuBOfurv3o)
-4. 
 5. [Electric Light Orchestra - On The Run](https://youtu.be/F54zs-M1Sgg)
-6. 
 7. [AC/DC - T.N.T](https://www.youtube.com/watch?v=NhsK5WExrnE)

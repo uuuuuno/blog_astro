@@ -1,10 +1,10 @@
 ---
-layout: '../../layouts/BlogPost.astro'
-title: 'MD test'
-description: 'Lorem ipsum dolor sit amet,  efficitur, ligula metus faucibus tellus, ac tempor eros mi.'
-pubDate: 'Jul 22 2022'
-heroImage: '/placeholder-social.jpg'
-tags: 'test'
+layout: "../../layouts/BlogPost.astro"
+title: "MD test"
+description: "Lorem ipsum dolor sit amet,  efficitur, ligula metus faucibus tellus, ac tempor eros mi."
+pubDate: "Jul 22 2022"
+heroImage: "/placeholder-social.jpg"
+tags: "test"
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
